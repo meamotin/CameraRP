@@ -1,0 +1,17 @@
+{
+  "parent": "minecraft:item/handheld_rod",
+  "textures": {
+    "layer0": "minecraft:item/carrot_on_a_stick"
+  },
+
+  "overrides": [
+
+    { "predicate": {"minecraft:custom_model_data": 1}, "model": "custom/camera"},
+    { "predicate": {"minecraft:custom_model_data": 2}, "model": "custom/camera_lens"},
+    { "predicate": {"minecraft:custom_model_data": 3}, "model": "custom/camera_shaft"},
+    { "predicate": {"minecraft:custom_model_data": 4}, "model": "custom/camera_up"},
+    { "predicate": {"minecraft:custom_model_data": 5}, "model": "custom/camera_down"}
+
+                 ]
+
+}
